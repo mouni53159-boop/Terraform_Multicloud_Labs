@@ -1,0 +1,28 @@
+🌍 Terraform Multicloud Labs
+🚀 Overview
+
+Terraform is an open-source Infrastructure as Code (IaC) tool developed by HashiCorp.
+It allows you to define, provision, and manage infrastructure across multiple cloud providers — such as AWS, Azure, and Google Cloud — using a simple and declarative configuration language.
+
+🧠 What is Terraform?
+Terraform is a tool for Building,Changing,Versioning infrastructure safely and Efficiently.
+Instead of manually setting up servers, networks, and storage through cloud consoles, Terraform lets you write configurations in .tf files — which describe what you want your infrastructure to look like.
+
+Terraform then takes care of:
+
+Creating resources
+
+Updating configurations
+
+Destroying unused resources
+➡️ All with a single command!
+# install terraform registry to windows and CLI
+After this then i created one App registry in Azure for creating the Resouce groups and all 
+and detailes like example below all the info from our azure app registry 
+az login
+
+ARM_CLIENT_ID="your-client-id"
+ARM_CLIENT_SECRET="your-client-secret"
+ARM_SUBSCRIPTION_ID="your-subscription-id"
+ARM_TENANT_ID="your-tenant-id"
+
