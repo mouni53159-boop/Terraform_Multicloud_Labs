@@ -17,7 +17,11 @@ Updating configurations
 Destroying unused resources
 ➡️ All with a single command!
 # install terraform registry to windows and CLI
-After this then i created one App registry in Azure for creating the Resouce groups and all 
+After this then i created one App registry in Azure for creating the Resouce groups,Given
+
+1.SERVICE PRINCIPLE NAME 
+2.ROLE ASSIGNMENT
+
 and detailes like example below all the info from our azure app registry 
 az login
 
