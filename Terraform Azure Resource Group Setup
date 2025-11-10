@@ -1,0 +1,25 @@
+# Working with terraform inazure
+#providers
+#resources
+This project demonstrates how to use Terraform to create and manage an Azure Resource Group using the HashiCorp AzureRM provider.
+It includes configuration files for initializing Terraform, authenticating with Azure, and defining the desired infrastructure state.
+
+#Terraform_2025/
+│
+├── .terraform/               # Auto-created folder by Terraform after initialization
+├── .terraform.lock.hcl       # Lock file that ensures provider version consistency
+├── ResourceGroup/            # (Optional folder for organizing submodules/resources)
+├── terraform.tfstate         # Tracks deployed infrastructure state in Azure
+├── main.tf                   # Main Terraform configuration file
+└── README.md                 # Project documentation (you’ll add this on GitHub)
+
+🧱 Files Explanation
+main.tf
+
+This is the core Terraform file that defines:
+
+Required provider (azurerm)
+
+Azure authentication details
+
+Resource configuration (Azure Resource Group)
